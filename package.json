@@ -1,0 +1,22 @@
+{
+  "name": "injection",
+  "version": "0.0.0",
+  "license": "ISC",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.11",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2"
+  }
+}
