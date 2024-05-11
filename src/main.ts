@@ -1,6 +1,6 @@
 import express, { Application } from 'express';
 import { ExpressApplication } from './express.application';
-import { Controller } from './interfaces';
+import { Controller } from './__common__/interfaces';
 import { UserController } from './user/user.controller';
 import { container as container } from './container';
 import { Symbols } from './symbols';

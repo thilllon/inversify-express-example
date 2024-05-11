@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { Router } from 'express';
 import { inject, injectable } from 'inversify';
-import { Controller } from '../interfaces';
+import { Controller } from '../__common__/interfaces';
 import { Symbols } from '../symbols';
 import { UserService } from './user.service';
 import { ControllerDecorator } from '../__common__/controller.decorator';

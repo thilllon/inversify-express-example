@@ -1,5 +1,5 @@
 import express from 'express';
-import { Controller, Application, Server } from './interfaces';
+import { Controller, Application, Server } from './__common__/interfaces';
 
 export class ExpressApplication implements Application {
   private app: Server;
